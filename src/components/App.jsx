@@ -6,7 +6,7 @@ import { Button } from 'components/Button/Button';
 import { Modal } from 'components/Modal/Modal';
 import { Container } from './Container/Container.styled';
 
-const PER_PAGE = 12;
+const PER_PAGE = 20;
 
 export const App = () => {
   const [searchQuery, setSearchQuery] = useState('');
