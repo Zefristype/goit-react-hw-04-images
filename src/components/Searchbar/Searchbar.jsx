@@ -11,6 +11,7 @@ export const Searchbar = ({ onSubmit }) => {
       return;
     }
     onSubmit(searchQuery);
+    setSearchQuery('');
   };
   const handleChange = e => {
     const value = e.currentTarget.value;
